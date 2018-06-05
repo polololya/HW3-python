@@ -11,5 +11,9 @@ _Methods:_
 * calculate_genome_size (parameter: noize threshold): calculate approximate genome size based on kmers frequencies.
 
 ## Results for __test_kmer.fastq.__
-
-
+```
+test = Kmer_spectrum(15)  
+test.create_spectrum('test_kmer.fastq')  
+test.calc_frequency()  
+test.visualize_spectrum([0,250, 1000, 1000000])  
+test.calculate_genome_size(50)  ```
