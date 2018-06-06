@@ -11,9 +11,14 @@ _Methods:_
 * calculate_genome_size (parameter: noize threshold): calculate approximate genome size based on kmers frequencies.
 
 ## Results for __test_kmer.fastq.__
-```
+```python
 test = Kmer_spectrum(15)  
 test.create_spectrum('test_kmer.fastq')  
 test.calc_frequency()  
 test.visualize_spectrum([0,250, 1000, 1000000])  
-test.calculate_genome_size(50)  ```
+test.calculate_genome_size(50)
+```
+
+* Genome size is 15890272 base pairs
+
+![](https://pp.userapi.com/c834200/v834200393/1579b6/EpfOMdpuxFI.jpg)
