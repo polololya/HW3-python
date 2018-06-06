@@ -10,7 +10,7 @@ _Methods:_
 * visualise_spectrum (parameter: list of four integers [xmin,xmax,ymin,ymax] - scales of axes in spectrum visualisation): plot frequncies. helps to decide the sequncing errors / valuable data border
 * calculate_genome_size (parameter: noize threshold): calculate approximate genome size based on kmers frequencies.
 
-## Results for __test_kmer.fastq.__
+## Results for __test_kmer.fastq__
 ```python
 test = Kmer_spectrum(15)  
 test.create_spectrum('test_kmer.fastq')  
